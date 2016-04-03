@@ -1,12 +1,3 @@
-#if [ "$1" != "" ]; then
-#    echo $*
-#    tightvncserver :$1	
-#else
-#    echo "Positional parameter 1 is empty"
-#    tightvncserver :1
-
-#fi
-#if no argument is given, then vncserver with display :1 will be started
 if ["$1" -eq ""]
 then
     tightvncserver :1

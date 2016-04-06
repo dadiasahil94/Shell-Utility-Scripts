@@ -2,11 +2,13 @@
 
 This contains utility files for small task
 
->> start_tightvncserver.sh -- To start a tightvncsever
-   Useage: sudo sh start_tightvncserver.sh "display_number"
+-start_tightvncserver.sh -- To start a tightvncsever
+Useage:
+	 sudo sh start_tightvncserver.sh "display_number"
 	
->> stop_tightvncserver.sh -- To stop a tightvncserver
-   Useage: sudo sh stop_tightvncserver.sh "displat_number"
+-stop_tightvncserver.sh -- To stop a tightvncserver
+Useage: 
+	sudo sh stop_tightvncserver.sh "displat_number"
 	
 >> check_avalaible_pkg_ver.sh -- To check avaliable package versions
    Useage: sudo sh check_avalaible_pkg_ver.sh "Package Name"

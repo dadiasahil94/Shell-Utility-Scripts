@@ -2,7 +2,7 @@
 
 This contains utility files for small task
 
-* start_tightvncserver.sh : To start a tightvncsever
+* **start_tightvncserver.sh** : To start a tightvncsever
 > sudo sh start_tightvncserver.sh "display_number"
 	
 * stop_tightvncserver.sh : To stop a tightvncserver

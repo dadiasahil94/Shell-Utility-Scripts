@@ -19,4 +19,4 @@ Small Scripts for Big Tasks
 > sudo sh check_installed_pkg_ver.sh [Package Name]
 
 * __install_dependencies_Z88aurora_V3.sh__ : To install package dependencies for [Z88aurora verison 3 FEM software](http://en.z88.de/download-z88aurora/)
-> shell sudo sh install_dependencies_Z88aurora_V3.sh
+> sudo sh install_dependencies_Z88aurora_V3.sh

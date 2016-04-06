@@ -1,7 +1,9 @@
 # Utility-Files
 Small Scripts for Big Tasks
 
-	NOTE : Anything Enclosed in \[ \] \(square bracket\) **IS**  mandatory for the user to input
+	NOTE : Anything Enclosed in [ ] (square bracket) IS mandatory for the user to input
+	
+	       Anything Enclosed in " " (double quotes) IS NOT mandatory for the user to input
 
 [comment]: # ("Anything Enclosed in [ ](square bracket) **IS NOT**  mandatory for the user to input")
 * __start_tightvncserver.sh__ : To start a tightvncsever

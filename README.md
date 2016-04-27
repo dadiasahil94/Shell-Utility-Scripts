@@ -20,3 +20,9 @@ Small Scripts for Big Tasks
 
 * __install_dependencies_Z88aurora_V3.sh__ : To install package dependencies for [Z88aurora verison 3 FEM software](http://en.z88.de/download-z88aurora/)
 > sudo sh install_dependencies_Z88aurora_V3.sh
+
+* __upgrade_single.sh__ : To upgrade a single package 
+> sudo sh upgrade_single.sh [package name]
+
+* __add_script.sh__ : To use the above script names globally
+> sh upgrade_single.sh [package name]

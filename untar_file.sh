@@ -19,5 +19,5 @@ fi
 
 echo "Input File : $1"
 echo "Output destination : $2"
-tar xzf $1 -C $2
+tar xzf $1 -C "$2"
 

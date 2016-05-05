@@ -6,6 +6,9 @@ Small Scripts for Big Tasks
 	       Anything Enclosed in " " (double quotes) IS NOT mandatory for the user to input
 
 [comment]: # ("Anything Enclosed in [ ](square bracket) **IS NOT**  mandatory for the user to input")
+* __untar_file.sh__ : To untar a file
+> sudo sh untar_file.sh [.tar.gz file] "Destination folder"
+
 * __start_tightvncserver.sh__ : To start a tightvncsever
 > sudo sh start_tightvncserver.sh "display_number"
 	
@@ -25,4 +28,4 @@ Small Scripts for Big Tasks
 > sudo sh upgrade_single.sh [package name]
 
 * __add_script.sh__ : To use the above script names globally like that of inbuilt shell commands like echo etc
-> sudo sh add_script.sh [script name] [calling name]
+> sh add_script.sh [script name] [calling name]

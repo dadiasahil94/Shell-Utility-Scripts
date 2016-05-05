@@ -20,7 +20,6 @@ echo "File name is : '$1'"
 echo "CALLING name is : '$2'"
 echo "Finished."
 
-echo "$1					$2" >> record.txt
-#sed  -i '1i ./add_script.sh $1 $2' run_me.sh
-echo "sh add_script.sh $1 $2 " | cat - run_me.sh >> temp && mv temp run_me.sh
+echo "$1	$2" >> record.txt
+echo "sh ./add_script.sh $1 $2 " | cat - run_me.sh >> temp && mv temp run_me.sh
 exit

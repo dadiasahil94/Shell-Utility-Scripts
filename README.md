@@ -4,9 +4,17 @@ Small Scripts for Big Tasks
 ## Installation
 1. Download the zip file or git clone https://github.com/dadiasahil94/Utility-Files.git
 2. Extract the file : tar xzf ./Utility-Files
-3. Run the command : sh run_me.sh
+3. Go into the directory : cd ./Utility-Files
+4. Run the command : sh run_me.sh ; sh run_me2.sh
 
-	NOTE : After doing git pull, only Run the command : sh run_me.sh
+	NOTE : After doing git pull, only Run the command : sh run_me.sh ; sh run_me2.sh
+
+## Uninstallation
+
+1. Go into the directory : cd ./Utility-Files
+2. Run the command : sh uninstall.sh
+3. Get out of the directory : cd ..
+4. Delete the whole directory : rm -rf ./Utility-Files
 
 ## Description of Commands
 
@@ -43,3 +51,8 @@ Small Scripts for Big Tasks
 
 * __remove_Script.sh__ : To remove the command
 > sudo sh remove_Script.sh [calling name]
+
+* __uninstall.sh__ : To remove all the commands by this script
+> sudo sh uninstall.sh
+
+	NOTE : You will need to press ctrl-c to stop the uninstall process

@@ -5,9 +5,14 @@ Small Scripts for Big Tasks
 1. Download the zip file or git clone https://github.com/dadiasahil94/Utility-Files.git
 2. Extract the file : tar xzf ./Utility-Files
 3. Go into the directory : cd ./Utility-Files
-4. Run the command : sh run_me.sh ; sh run_me2.sh
+4. Run the command : sudo sh run_me.sh ; sudo sh run_me2.sh
 
 	NOTE : After doing git pull, only Run the command : sh run_me.sh ; sh run_me2.sh
+	
+## Get the cuting Edge
+1. Go into the directory : cd ./Utility-Files
+2. Run the git pull : git pull
+3. Run the commands : sudo sh run_me.sh ; sudo sh run_me2.sh
 
 ## Uninstallation
 

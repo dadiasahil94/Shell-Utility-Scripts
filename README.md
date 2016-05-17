@@ -8,7 +8,7 @@ Small Scripts for Big Tasks
 4. Run the command : sudo sh run_me.sh ; sudo sh run_me2.sh
 
 	NOTE : After doing git pull, only Run the command : sh run_me.sh ; sh run_me2.sh
-	
+
 ## Get the cuting Edge
 1. Go into the directory : cd ./Utility-Files
 2. Run the git pull : git pull
@@ -61,3 +61,6 @@ Small Scripts for Big Tasks
 > sudo sh uninstall.sh
 
 	NOTE : You will need to press ctrl-c to stop the uninstall process
+
+* __python_cprofile.sh__ : To profile a python code
+> sudo sh python_cprofile.sh [python_program_name]

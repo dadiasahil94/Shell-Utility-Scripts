@@ -1,21 +1,26 @@
-Useage="Useage is:\n\tsh untar_file.sh [.tar.gz file] \"Destination folder\" "
-
+#script to hangel help option
+Useage="DESCRIPTION:\n\t A script to extract a tar file\nUSEAGE:\n\tsh untar_file.sh [.tar.gz file] \"Destination folder\" "
 while getopts ':hs:' option;do
 	case "$option" in
 		h) echo "$Useage"
 		   exit
 		   ;;
+ help) echo "$Useage"
+			 exit
+			 ;;
 	esac
 done
 
 #See if input file is missing
 if [$1 -eq '']
 then
-	echo "Specify the input file"
-	echo "Exiting the Program"
+	echo "Input file is missing"
+	echo "$Useage"
 	exit
 fi
 
+#
+#case if destination folder is not mentioned
 if [$2 -eq '']
 then
 	echo "Destination directory not specified.\nSetting the CURRENT directory as destination directory\n"

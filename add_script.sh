@@ -1,16 +1,27 @@
 #!/usr/bin/env bash
 
+Useage="Useage is:\n\tsh add_script.sh [Script_Name] [Calling_Name]"
+while getopts ':hs:' option;do
+	case "$option" in
+		h) echo "$Useage"
+		   exit
+		   ;;
+	esac
+done
+
+
+
 if [$1 -eq ""]
 then
 	echo "Enter the script name"
 	echo "Exiting the program"
-	exit 
+	exit
 fi
-if [$2 -eq ""] 
+if [$2 -eq ""]
 then
 	echo "Enter the calling name"
 	echo "Exiting the program"
-	exit 
+	exit
 fi
 
 chmod +x $1

@@ -1,4 +1,16 @@
-find . -type f -iname "*.sh" -printf "%f\n" | sed 's/\.[^.]*$//' > record.txt 
+Useage="Useage is:\n\tsh uninstall.sh "
+
+while getopts ':hs:' option;do
+	case "$option" in
+		h) echo "$Useage"
+		   exit
+		   ;;
+	esac
+done
+
+
+
+find . -type f -iname "*.sh" -printf "%f\n" | sed 's/\.[^.]*$//' > record.txt
 
 no_lines=$(wc ./record.txt -l)
 current=$0
@@ -13,4 +25,3 @@ do
 #	current=$[$current+1]
 	sed -i '1d' ./record.txt
 done
-

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #script to hangel help option
-Useage="Description:\n\t A program to add a new script\nUseage is:\n\t sudo add_script [.sh Script_Name] [Calling_Name without .sh]"
+Useage='\nDescription:\n\t A program to add a new script\nUseage is:\n\t sudo add_script [.sh Script_Name] [Calling_Name without .sh]\n'
 while getopts ':hs:' option;do
 	case "$option" in
 		h) echo "$Useage"
@@ -32,7 +32,7 @@ then
 fi
 
 #main script
-chmod +x $1
+sudo chmod +x $1
 sudo cp  $1 /usr/bin/$2
 sudo cp  $1 /usr/local/bin
 echo "File name is : '$1'"

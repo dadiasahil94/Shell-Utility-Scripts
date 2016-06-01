@@ -64,3 +64,6 @@ Small Scripts for Big Tasks
 
 * __python_cprofile.sh__ : To profile a python code
 > sudo sh python_cprofile.sh [python_program_name]
+
+* __compile_cpp_opencv.sh__ : To compile C++ openCV 3.0.0 files
+> sh compile_cpp_opencv.sh  [c++ file to compile]  "output file name"

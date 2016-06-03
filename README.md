@@ -67,3 +67,9 @@ Small Scripts for Big Tasks
 
 * __compile_cpp_opencv.sh__ : To compile C++ openCV 3.0.0 files
 > sh compile_cpp_opencv.sh  [c++ file to compile]  "output file name"
+
+* __add_ppa.sh__ : To add a PPA Repository
+> sudo sh add_ppa.sh [ppa_name]
+
+* __remove_ppa.sh__ : To remove a PPA Repository
+> sudo sh remove_ppa.sh [ppa_name]

@@ -1,8 +1,10 @@
+add_ppa.sh	add_ppa
 add_script.sh	add_script
 check_avaliable_pkg_ver.sh	check_avaliable_pkg_ver
 check_installed_pkg_ver.sh	check_installed_pkg_ver
 compile_cpp_opencv.sh	compile_cpp_opencv
 python_cprofile.sh	python_cprofile
+remove_ppa.sh	remove_ppa
 start_tightvncserver.sh	start_tightvncserver
 stop_tightvncserver.sh	stop_tightvncserver
 untar_file.sh	untar_file

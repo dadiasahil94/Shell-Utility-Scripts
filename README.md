@@ -73,3 +73,7 @@ Small Scripts for Big Tasks
 
 * __remove_ppa.sh__ : To remove a PPA Repository
 > sudo sh remove_ppa.sh [ppa_name]
+
+## Description of Commands
+
+This project uses MIT-License

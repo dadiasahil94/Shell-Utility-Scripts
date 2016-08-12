@@ -1,4 +1,4 @@
-# Shell Utility-Files
+# Shell Utility Scripts
 Small Scripts for Big Tasks
 
 ## Installation

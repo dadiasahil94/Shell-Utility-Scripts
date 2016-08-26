@@ -2,7 +2,7 @@
 Small Scripts for common shell tasks such as unzipping, untarring, upgrading packages.
 
 ## Installation
-1. Download the zip file or git clone https://github.com/sdadia/Utility-Files.git
+1. Download the zip file or git clone https://github.com/sdadia/Shell-Utility-Scripts.git
 2. If zip file, then ,extract the file : **tar xzf ./Shell-Utility-Scripts**
 3. Go into the directory : **cd ./Shell-Utility-Scripts**
 4. Run the command : **run_me ; run_me2**

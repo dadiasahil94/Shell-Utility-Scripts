@@ -2,9 +2,9 @@
 Small Scripts for Big Tasks
 
 ## Installation
-1. Download the zip file or git clone https://github.com/dadiasahil94/Utility-Files.git
-2. Extract the file : **tar xzf ./Utility-Files**
-3. Go into the directory : **cd ./Utility-Files**
+1. Download the zip file or git clone https://github.com/sdadia/Utility-Files.git
+2. If zip file, then ,extract the file : **tar xzf ./Shell-Utility-Scripts**
+3. Go into the directory : **cd ./Shell-Utility-Scripts**
 4. Run the command : **sudo sh run_me.sh ; sudo sh run_me2.sh**
 
 	NOTE : After doing git pull, only Run the command : sh run_me.sh ; sh run_me2.sh
@@ -29,6 +29,8 @@ Small Scripts for Big Tasks
 
 [comment]: # ("Anything Enclosed in [ ](square bracket) **IS NOT**  mandatory for the user to input")
 
+* __gcc_linkerlib_path.sh__ : To find and get linker path for gcc libraries
+> gcc_linkerlib_path [your library name here]
 
 * __untar_file.sh__ : To untar a file
 > sudo sh untar_file.sh [.tar.gz file] "Destination folder"

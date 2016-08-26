@@ -1,3 +1,4 @@
+sh ./add_script.sh gcc_linkerlib_path.sh gcc_linkerlib_path 
 sh ./add_script.sh add_ppa.sh add_ppa 
 sh ./add_script.sh add_script.sh add_script 
 sh ./add_script.sh check_avaliable_pkg_ver.sh check_avaliable_pkg_ver 

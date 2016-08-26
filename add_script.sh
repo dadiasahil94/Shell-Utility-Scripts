@@ -6,7 +6,7 @@ while getopts ':hs:' option;do
 		h) echo "$Useage"
 		   exit
 		   ;;
- help) echo "$Useage"
+		help) echo "$Useage"
 			 exit
 			 ;;
 	esac

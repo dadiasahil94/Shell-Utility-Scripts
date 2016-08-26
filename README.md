@@ -4,21 +4,21 @@ Small Scripts for common shell tasks such as unzipping, untarring, upgrading pac
 ## Installation
 1. Download the zip file or git clone https://github.com/sdadia/Shell-Utility-Scripts.git
 2. If zip file, then ,extract the file : **tar xzf ./Shell-Utility-Scripts**
-3. Go into the directory : **cd ./Shell-Utility-Scripts**
-4. Run the command : **run_me ; run_me2**
+3. Go into the directory : **cd ./Shell-Utility-Scripts/scripts/**
+4. Run the command : **sudo sh run_me ;sh run_me2**
 
 	NOTE : After doing git pull, only Run the command : sh run_me ; sh run_me2
 
 ## Get the cuting Edge
-1. Go into the directory : **cd ./Utility-Files**
+1. Go into the directory : **cd ./Shell-Utility-Scripts/scripts/**
 2. Run the git pull : **git pull**
-3. Run the commands : **run_me ; run_me2**
+3. Run the commands : **sudo sh run_me ;sh run_me2**
 
 ## Uninstallation
 
-1. Go into the directory : **cd ./Utility-Files**
-2. Run the command : **sh uninstall**
-3. Get out of the directory : **cd ..**
+1. Go into the directory : **cd ./Shell-Utility-Scripts/scripts/**
+2. Run the command : **sudo sh uninstall** (Press Ctrl-c to stop)
+3. Get out of the directory : **cd ../..**
 4. Delete the whole directory : **rm -rf ./Utility-Files**
 
 ## Description of Commands
@@ -65,8 +65,6 @@ Small Scripts for common shell tasks such as unzipping, untarring, upgrading pac
 * __remove_script__ : To remove the command
 > remove_script [calling name]
 
-	NOTE : You will need to press ctrl-c to stop the uninstall process
-
 * __python_cprofile__ : To profile a python code
 > python_cprofile [python_program_name]
 
@@ -75,6 +73,8 @@ Small Scripts for common shell tasks such as unzipping, untarring, upgrading pac
 
 * __uninstall__ : To remove all the commands by this script
 > sudo sh uninstall.sh
+
+	NOTE : You will need to press ctrl-c to stop the uninstall process
 
 ## License
 

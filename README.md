@@ -65,9 +65,6 @@ Small Scripts for common shell tasks such as unzipping, untarring, upgrading pac
 * __remove_script__ : To remove the command
 > remove_script [calling name]
 
-* __uninstall__ : To remove all the commands by this script
-> sudo uninstall
-
 	NOTE : You will need to press ctrl-c to stop the uninstall process
 
 * __python_cprofile__ : To profile a python code
@@ -75,6 +72,9 @@ Small Scripts for common shell tasks such as unzipping, untarring, upgrading pac
 
 * __compile_cpp_opencv__ : To compile C++ openCV 3.0.0 files
 > compile_cpp_opencv  [c++ file to compile]  "output file name"
+
+* __uninstall__ : To remove all the commands by this script
+> sudo sh uninstall.sh
 
 ## License
 

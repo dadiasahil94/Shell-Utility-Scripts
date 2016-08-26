@@ -33,7 +33,7 @@ Small Scripts for common shell tasks such as unzipping, untarring, upgrading pac
 > untar_file [.tar.gz file] "Destination folder"
 
 * __upgrade_single_pkg__ : To upgrade a single package
-> upgrade_single [package name]
+> upgrade_single_pkg [package name]
 
 * __add_ppa__ : To add a PPA Repository
 > add_ppa [ppa_name]
